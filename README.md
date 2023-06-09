@@ -1,4 +1,4 @@
-## EXPERIMENT 01:IMPLEMENTATION OF UNIVARIATE LINEAR REGRESSION
+## EX-1: UNIVARIATE LINEAR REGRESSION
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -46,7 +46,7 @@ print("If x=3 then y=",y_3)
 3,10,3,6,8,12,1,4,9,14
 ```
 
-## EXPERIMENT 02: IMPLEMENTATION OF SIMPLE LINEAR REGRESSION MODEL FOR PREDICTING THE MARKS SCORED
+##  EX-2: SIMPLE LINEAR REGRESSION MODEL FOR PREDICTING THE MARKS SCORED
 ```
 import pandas as pd
 import numpy as np
@@ -109,7 +109,7 @@ print("RMSE = ",rmse)
 ```
 [student_scores.csv](https://github.com/KeerthikaNagarajan/ml/files/11688315/student_scores.csv)
 
-## EXPERIMENT 03:IMPLEMENTATION OF LINEAR REGRESSION USING GRADIENT DESCENT
+## EX-3: LINEAR REGRESSION USING GRADIENT DESCENT
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -184,7 +184,7 @@ print("For population= 70,000, we predict a profit of $"+str(round(predict2,0)))
 ```
 [ex1.txt](https://github.com/KeerthikaNagarajan/ml/files/11688320/ex1.txt)
 
-## EXPERIMENT 04: IMPLEMENTATION OF LOGISTIC REGRESSION MODEL TO PREDICT THE PLACEMENT STATUS OF STUDENT
+## EX-4: LOGISTIC REGRESSION MODEL TO PREDICT THE PLACEMENT STATUS OF STUDENT
 ```
 import pandas as pd
 data=pd.read_csv("Placement_Data.csv")
@@ -241,7 +241,7 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 [Placement_Data.csv](https://github.com/KeerthikaNagarajan/ml/files/11688323/Placement_Data.csv)
 
-## EXPERIMENT 05:IMPLEMENTATION OF LOGISTIC REGRESSION USING GRADIENT DESCENT
+## EX-5: LOGISTIC REGRESSION USING GRADIENT DESCENT
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -330,7 +330,7 @@ np.mean(predict(res.x,X)==y)
 ```
 [ex2data1.txt](https://github.com/KeerthikaNagarajan/ml/files/11688326/ex2data1.txt)
 
-## EXPERIMENT 06: IMPLEMENTATION OF DECISION TREE CLASSIFIER MODEL FOR PREDICTING EMPLOYEE CHURN 
+## EX-6: DECISION TREE CLASSIFIER MODEL FOR PREDICTING EMPLOYEE CHURN 
 ```
 import pandas as pd
 data=pd.read_csv("Employee.csv")
@@ -370,7 +370,7 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
 [Employee.csv](https://github.com/KeerthikaNagarajan/ml/files/11688333/Employee.csv)
 
-## EXPERIMENT 07: IMPLEMENTATION OF DECISION TREE REGRESSOR MODEL FOR PREDICTING THE SALARY OF THE EMPLOYEE
+## EX-7: DECISION TREE REGRESSOR MODEL FOR PREDICTING THE SALARY OF THE EMPLOYEE
 ```
 import pandas as pd
 data=pd.read_csv("Salary.csv")
@@ -411,7 +411,7 @@ dt.predict([[5,6]])
 ```
 [Salary.csv](https://github.com/KeerthikaNagarajan/ml/files/11688337/Salary.csv)
 
-## EXPERIMENT 08:IMPLEMENTATION OF K MEANS CLUSTERING FOR CUSTOMER SEGMENTATION
+## EX-8: K MEANS CLUSTERING FOR CUSTOMER SEGMENTATION
 ```
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -458,7 +458,7 @@ plt.title("Customer Segments")
 ```
 [Mall_Customers (1).csv](https://github.com/KeerthikaNagarajan/ml/files/11688341/Mall_Customers.1.csv)
 
-## EXPERIMENT 09: IMPLEMENTAION OF SVM FOR SPAM MAIL DETECTION
+## EX-9: SVM FOR SPAM MAIL DETECTION
 ```
 import chardet
 file='spam.csv'
